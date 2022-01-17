@@ -4,23 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UAT Space Program</title>
-    <img src="UATspaceLogo-2.jpg" alt="">
+    <title>UAT Space Program</title> <!-- title text -->
+    
+    <img src="UATspaceLogo-2.jpg" alt=""> <!-- image of space logo -->
 </head>
 <body>
-<h1>
-    UAT Space Program  </h1>
+<h1><!-- header tag -->
+    UAT Space Program</h1>  <!-- header text -->
 
+<p> <!-- paragraph tag -->
+    Test of the document write function  <!-- paragraph text --> </p>  
 <p>
-    Test of the document write function    </p>
-<p>
-    Test of the paragraph tags    </p>
+    Test of the paragraph tags</p>
+<button>Start</button>
+<button>Stop</button> 
+
+<!--<style>
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
     
-<button>
-    Start    button>
+    .button1 {background-color: #1f154b;} 
     
-<button>
-    Stop    </button>
-    
+    </style>
+    </head>
+    <body>
+       <h3>Alert button</h3>
+    <button class="button button1">Alert </button>
+    </body>-->
+    <style>
+        body{
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .alertMessage {
+           padding: 20px;
+           background-color: #d61b79;
+           color: white;
+           font-size: 20px;
+        }
+        .close{
+           margin-left: 15px;
+           color: white;
+           font-weight: bold;
+           float: right;
+           font-size: 22px;
+           line-height: 20px;
+           cursor: pointer;
+           transition: 0.3s;
+        }
+        .close:hover {
+           color: black;
+        }
+     </style>
+     </head>
+     <body>
+     <h1>Alert Message</h1>
+     
+     <div class="alertMessage">
+     <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
+     <strong>This is what I found!</strong> I even have a colored button commented out.
+     </div>
 </body>
 </html>
+<!--I found the alert message and the colored button on w3schools.com website.  I copied and pasted
+     but I was trying to manipulate the code to try and get different types of buttons.
+    I just wanted a standard type of button that didn't go across the screen.  I couldn't figure out 
+    how to do that correctly.-->
